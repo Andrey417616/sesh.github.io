@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>sesh</title>
+        </head>
+        
+        <body>
+        <a id="comeback"></a>
+        <h1 id="task1">first task</h1>
+        <h2> Список гиперссылок: </h2>
+        <ol>
+        <li><a href="http://example.com">Абсолютная гиперссылку на главную страницу сайта example.com </a></li>
+        <li><a href="https://example.com"> Абсолютная на главную сайта example.com в протоколе https </a></li>
+        <li><a href="ftp://google.com/fallout/file1.txt">Ссылка на файл на сервере FTP без авторизации</a></li>
+        <li><a href="ftp://test:password@admin.ru/data/file2.txt"> Ссылка на файл на сервере FTP с авторизацией</a></li>
+        <li><a href="taylor.html#lyrics" target="_blank">Ссылку на фрагмент страницы некоторого сайт</a></li>
+        <li><a href="#“twice”">Ссылка на фрагмент текущей страницы </a></li>
+        <li><a href="https://www.onlinestore.ru?product=t-shitt&color=white" target="_blank"> Ссылка с двумя параметрами в URL</a></li>
+        <li><p>Список ссылок основной навигации сайта с подписями</p>
+        <nav>
+        <ul>
+        <li><a href="#task1" title="task">Задание №1</a></li>
+        <li><a href="#form" title="form">Форма</a></li>
+        </ul>
+        </nav>
+        <br>
+        </li>
+        <li><a>Ссылка без href</a></li>
+        <li><a href="">Ссылка с пустым href</a></li>
+        <li><a href="http://example.com" rel = "nofollow"> Ссылка, по которой запрещен переход поисковикам</a></li>
+        <li><a href="http://example.com" rel = "noindex">Запрещенная для индексации поисковиками</a></li>
+        <li><p>Просто ссылка на -> <a target="_blank" href="https://vk.com/feed"> VK </a>- ;)</p></li>
+        <li><a href="https://youtu.be/_cjSafyjABs" target="_blank"><img src="https://sun9-49.userapi.com/impg/TBs0r4K1gZxm0FXNeYQ56LqKhmkIkU4qDGWoDQ/la_UOXJL_0Y.jpg?size=750x750&quality=95&sign=583bd2066290e61d988833b8afe384d7&type=album" width="450" height="350" alt="twice"></a></li>
+        <li><a href="srr.html">Относительная ссылка</a></li>
+        <li><a href="about/about.html">Относительная ссылка на старницу в каталоге about</a></li>
+        <li><a href="../index.html">Относительная ссылка уровнем выше</a></li>
+        <li><a href="../../index.html">Относительная ссылка на 2 уровня выше</a></li>
+        <li><a href="/">Сокращенная ссылка на главную</a></li>
+        <li><a href="/srr.html">Сокращенная ссылка на внутреннюю</a></li>
+        </ol>
+        форма записи：
+        <form action="example.com/"method="POST">
+        <label>
+            Имя：<input name="field-name-1"
+            value="nova"/>
+        </label><br>
+        </form>
+        <label>
+            email: <input name="field-email"
+            value="nova@mail.ru"
+            type="email"/>
+            </label><br>
+        </label>
+        <label>
+            Дата: <input name="field-date"
+            value="2022-09-10"
+            type="date"/>
+        </label><br>
+        <label>Пол: 
+            <input type="radio" checked="checked"name="radio-group-1"value="Значение1" />Мужской</label>
+            <label>
+                <input type="radio"name="radio-group-1"value="Значение2"/> Женский</label></br>
+        Количество конечностей:
+        <label>
+            <input type="radio" checked="checked"name="radio-group-2"value="Значение1" />Одна рука</label>
+        <label>
+            <input type="radio"name="radio-group-2"value="Значение2" />Две руки</label>
+        <label>
+            <input type="radio"name="radio-group-2"value="Значение3" />Более двух</label><br>
+        <br>
+        <label>
+            Сверхспособность:
+                <select name="field-name-3">
+                    <option value = "1">телепатия</option><br>
+                    <option value = "2">управлением временем</option><br>
+                    <option value = "3">контроль</option><br>
+                </select>
+        </label>
+        <label><br>
+            Биография:
+            <textarea name="field-name-2">no</textarea>
+        </label>
+        <br>
+        <label><input type="checkbox" checked="checked"
+        name="check-1" />
+            готов!</label><br>
+        <input type="submit" value="Отправить" />
+    </body>
+</html>
