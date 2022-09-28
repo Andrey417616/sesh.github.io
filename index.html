@@ -1,123 +1,227 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <title>sesh</title>
-        </head>
-        
-        <body
-            style="margin:0">
-            <div style="width:100%;background-color:rgba(241, 10, 10, 0.877);padding:10px;height:100px;">
-            <h1>Тут что-то</h1></div>
-            <div style="text-align:center;max-width:120px;background-color:rgba(236, 0, 0, 0);padding:1px;height:30px;">Spider-man</div>
-            <a href="https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA-%D0%BF%D0%B0%D1%83%D0%BA"title="Spider-man"> <img src="https://i.ytimg.com/vi/TKyF8Xnzdsw/maxresdefault.jpg"width="300"height="150"></a>
-        </div>
-        <br>
-        "С большой силой приходит большая ответственность"
-        <table class="table">
-            <tr>
-            <th>Day turn to night</th>
-            <th>Pain turn to spite</th>
-            <th>Smoking in the garden, watching rain turn to ice</th>
-            </tr>
-            <tr>
-            <th>Day turn to night</th>
-            <th>Pain turn to spite</th>
-            <th>Smoking in the garden, watching rain turn to ice</th>
-            </tr>
-            <tr>
-            <th> If we ever gеt into it</th>
-            <th> I wont be holding my feelings in</th>
-            <th> If we ever get into it</th>
-            <th> In a box six feet below, where we leave em at</th>
-            </tr>
-            <th> If we ever gеt into it</th>
-            <th> I wont be holding my feelings in</th>
-            <th> If we ever get into it</th>
-            <th> In a box six feet below, where we leave em at</th>
-            </table>
-        <a id="comeback"></a>
-        <h1 id="task1">first task</h1>
-        <h2> Список гиперссылок: </h2>
-        <ol>
-        <li><a href="http://example.com">Абсолютная гиперссылку на главную страницу сайта example.com </a></li>
-        <li><a href="https://example.com"> Абсолютная на главную сайта example.com в протоколе https </a></li>
-        <li><a href="ftp://google.com/fallout/file1.txt">Ссылка на файл на сервере FTP без авторизации</a></li>
-        <li><a href="ftp://test:password@admin.ru/data/file2.txt"> Ссылка на файл на сервере FTP с авторизацией</a></li>
-        <li><a href="taylor.html#lyrics" target="_blank">Ссылку на фрагмент страницы некоторого сайт</a></li>
-        <li><a href="#“twice”">Ссылка на фрагмент текущей страницы </a></li>
-        <li><a href="https://www.onlinestore.ru?product=t-shitt&color=white" target="_blank"> Ссылка с двумя параметрами в URL</a></li>
-        <li><p>Список ссылок основной навигации сайта с подписями</p>
-        <nav>
-        <ul>
-        <li><a href="#task1" title="task">Задание №1</a></li>
-        <li><a href="#form" title="form">Форма</a></li>
-        </ul>
-        </nav>
-        <br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Task 3 </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+      <div class="logo">
+        <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808/a2ccab67359863.Y3JvcCw5NDMsNzM4LDIyOCwxMjY.jpg" alt="Логотип" class = "logoPNG">
+      </div>
+      <div class="zagolovok">
+        <h1> На этой странице будут предоставленны гиперссылки </h1>
+    </div>
+  </header>
+  <nav class = "navigation">
+    <ul class = "navhref">
+      <li><a href="#figuri"> Ссылка на фигуры </a></li>
+      <li><a href="#form1"> Ссылка на форму </a></li>
+      <li><a href="#sendButton"> Ссылка на кнопку отправить </a></li>
+    </ul>
+  </nav>
+  <div class="content">
+    <h1> Список гиперссылок </h1>
+    <ol>
+        <li>
+          <a href="http://kubsu.ru/"> Абсолютная гиперссылка на главную страницу сайта </a>
         </li>
-        <li><a>Ссылка без href</a></li>
-        <li><a href="">Ссылка с пустым href</a></li>
-        <li><a href="http://example.com" rel = "nofollow"> Ссылка, по которой запрещен переход поисковикам</a></li>
-        <li><a href="http://example.com" rel = "noindex">Запрещенная для индексации поисковиками</a></li>
-        <li><p>Просто ссылка на -> <a target="_blank" href="https://vk.com/feed"> VK </a>- ;)</p></li>
-        <li><a href="https://youtu.be/_cjSafyjABs" target="_blank"><img src="https://sun9-49.userapi.com/impg/TBs0r4K1gZxm0FXNeYQ56LqKhmkIkU4qDGWoDQ/la_UOXJL_0Y.jpg?size=750x750&quality=95&sign=583bd2066290e61d988833b8afe384d7&type=album" width="450" height="350" alt="twice"></a></li>
-        <li><a href="srr.html">Относительная ссылка</a></li>
-        <li><a href="about/about.html">Относительная ссылка на старницу в каталоге about</a></li>
-        <li><a href="../index.html">Относительная ссылка уровнем выше</a></li>
-        <li><a href="../../index.html">Относительная ссылка на 2 уровня выше</a></li>
-        <li><a href="/">Сокращенная ссылка на главную</a></li>
-        <li><a href="/srr.html">Сокращенная ссылка на внутреннюю</a></li>
+        <li>
+          <a href="https://www.kubsu.ru/"> Абсолютная на главную сайта в протоколе https </a>
+        </li>
+        <li>
+          <a href="ftp://kubsu.ru/Temp/file.txt"> Ссылка на файл на сервере FTP без авторизации </a>
+        </li>
+        <li>
+          <a href="ftp://user1:pasword123@kubsu.ru/Temp/file.txt"> Ссылка на файл на сервере FTP с авторизацией </a>
+        </li>
+        <li>
+          <a href="https://ru.wikipedia.org/wiki/Медведи#Общее_описание"> Ссылка на фрагмент страницы некоторого сайта </a>
+        </li>
+        <li>
+          <a href= "#about"> Ссылку на фрагмент текущей страницы </a>
+        </li>
+        <li>
+          <a href="https://kubsu.ru/ru/education/programs"> Ссылка с двумя параметрами в URL </a>
+        </li>
+        <li> Список ссылок основной навигации сайта с подписями title
+          <ol>
+          <li>
+            <a href="https://www.kubsu.ru/" title="Ссылка на главную страницу КубГУ"> КубГУ </a>
+          </li>
+          <li>
+            <a href="https://kubsu.ru/ru/education" title="Ссылка на раздел Образование"> КубГУ раздел Образование </a>
+          </li>
+          <li>
+            <a href="https://kubsu.ru/ru/science" title="Ссылка на Наука и Инновации"> КубГУ раздел Наука и Инновации </a>
+          </li>
         </ol>
-        форма записи：
-        <form action="example.com/"method="POST">
-        <label>
-            Имя：<input name="field-name-1"
-            value="nova"/>
-        </label><br>
-        </form>
-        <label>
-            email: <input name="field-email"
-            value="nova@mail.ru"
-            type="email"/>
-            </label><br>
-        </label>
-        <label>
-            Дата: <input name="field-date"
-            value="2022-09-10"
-            type="date"/>
-        </label><br>
-        <label>Пол: 
-            <input type="radio" checked="checked"name="radio-group-1"value="Значение1" />Мужской</label>
-            <label>
-                <input type="radio"name="radio-group-1"value="Значение2"/> Женский</label></br>
-        Количество конечностей:
-        <label>
-            <input type="radio" checked="checked"name="radio-group-2"value="Значение1" />Одна рука</label>
-        <label>
-            <input type="radio"name="radio-group-2"value="Значение2" />Две руки</label>
-        <label>
-            <input type="radio"name="radio-group-2"value="Значение3" />Более двух</label><br>
+      </li>
+        <li>
+          <a> Ссылка без href: http://kubsu.ru/ </a>
+        </li>
+        <li>
+          <a href=""> Cсылка с пустым href </a>
+        </li>
+        <li>
+          <a href="http://kubsu.ru/" rel="nofollow"> Ссылка по которой запрещен переход поисковикам </a>
+        </li>
+        <li>
+          <!--noindex--> <a href="http://kubsu.ru/"> Ссылка запрещенная для индексации поисковиками </a> <!--/noindex-->
+          <noscript>
+            <a href="http://kubsu.ru/"> Ссылка запрещенная для индексации поисковиками </a>
+          </noscript>
+        </li>
+        <li>
+          Контекстная ссылка в <a href="http://kubsu.ru/"> тексте абзаца</a>
+        </li>
+        <li>
+          Ссылка изоображение
+          <br>
+          <a href ="http://kubsu.ru"> <img src="https://sun9-49.userapi.com/impg/TBs0r4K1gZxm0FXNeYQ56LqKhmkIkU4qDGWoDQ/la_UOXJL_0Y.jpg?size=750x750&quality=95&sign=583bd2066290e61d988833b8afe384d7&type=album" alt="фотоизоображение" width="200" height="110"> </a>
+        </li>
+        <li id = "figuri"> ссылки из прямоугольных и круглых областей картинки (HTML-тег map)
+          <br>
+		<img src = "Map.jpg" usemap = "#figuri" alt = "Фигуры" width="260" height="150" >
+    <map name = "figuri" >
+      <area shape = "rect" coords = "25,25,125,125" href = "https://ru.wikipedia.org/wiki/Квадрат" alt = "Красный квадрат" >
+			<area shape = "circle" coords = "200,75,50" href = "https://ru.wikipedia.org/wiki/Круг" alt = "Зелёный круг." >
+		</map>
+        </li>
+        <li>
+          <a href="/about"> Относительная на страницу в текущем каталоге </a>
+        </li>
+        <li>
+          <a href="/about/page1"> Относительная на страницу в каталоге about </a>
+        </li>
+        <li>
+          <a href="../main.js"> Относительная на страницу в каталоге уровнем выше текущего </a>
+        </li>
+        <li>
+          <a href="../../style.css"> Относительная на страницу в каталоге двумя уровнями выше </a>
+        </li>
+        <li>
+          <a href="https://u.to/y_xJHA"> Сокращенная на главную страницу КубГУ </a>
+        </li>
+        <li>
+          <a href="https://u.to/0uxJHA"> Сокращенная ссылку на внутреннюю </a>
+        </li>
+    </ol>
+    <br>
+    <table id = "table">
+        <tr class = "tab0">
+            <th>Колонка 1</th>
+            <th>Колонка 2</th>
+            <th>Колонка 3</th>
+        </tr>
+        <tbody>
+            <tr class = "tab1">
+                <td colspan = "3">Объединённая ячейка 1, 2, 3</td>
+            </tr>
+            <tr class = "tab2">
+                <td>Ячейка 4</td>
+                <td>Ячейка 5</td>
+                <td>Ячейка 6</td>
+            </tr>
+            <tr class = "tab1">
+                <td>Ячейка 7</td>
+                <td>Ячейка 8</td>
+                <td>Ячейка 9</td>
+            </tr>
+            <tr class = "tab2">
+                <td colspan = "3">Объединённая ячейка 10, 11, 12</td>
+            </tr>
+            <tr class = "tab1">
+                <td>Ячейка 13</td>
+                <td>Ячейка 14</td>
+                <td>Ячейка 15</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h1> Форма </h1>
+    <form action="/" method="post" id = "form1">
+      <label>
+         Имя(Текстовое поле):
+         <br>
+         <input type="text" class = "formAd" name="Name" value="">
+      </label>
+      <br>
+      <label>
         <br>
-        <label>
-            Сверхспособность:
-                <select name="field-name-3">
-                    <option value = "1">телепатия</option><br>
-                    <option value = "2">управлением временем</option><br>
-                    <option value = "3">контроль</option><br>
-                </select>
-        </label>
-        <label><br>
-            Биография:
-            <textarea name="field-name-2">no</textarea>
-        </label>
+        E-mail поле:
         <br>
-        <label><input type="checkbox" checked="checked"
-        name="check-1" />
-            готов!</label><br>
-        <input type="submit" value="Отправить" />
-    </body>
+        <input type="email" class = "formAd" name="emailfield" placeholder="Введите вашу почту:">
+      </label>
+      <br>
+      <label>
+        <br>
+        Текстовое поле даты:
+        <br>
+        <input type="date"  class = "formAd" name="field-date" value="">
+      </label>
+      <br>
+      <br>
+      Пол:
+      <br>
+      <label>
+        М
+        <input type="radio" class = "formAd" name="gender" value="М" >
+      </label>
+      <br>
+      <label>
+        Ж
+        <input type="radio" class = "formAd" name="gender" value="Ж" >
+      </label>
+      <br><br>
+      Количество конечностей:
+      <br>
+       <label>
+         2
+         <input type="radio" class = "formAd" name="limbsNumber" value="2">
+       </label>
+       <label>
+         3
+         <input type="radio" class = "formAd" name="limbsNumber" value="3">
+       </label>
+       <label>
+         4
+         <input type="radio" class = "formAd" name="limbsNumber" value="4">
+       </label>
+       <br><br>
+       Сверхспособности:
+       <label>
+       <br>
+       <select name="powers">
+         <option value="Бессмертие"> Регенерация </option>
+         <option value="Прохождение сквозь стены"> Контроль разума </option>
+         <option value="Левитация"> Левитация </option>
+       </select>
+       </label>
+       <label>
+       <br><br>
+       Биография:
+       <br>
+       <textarea name="textfield"></textarea>
+       </label>
+        <br>
+
+         <label for="contract">
+		 <input id="contract" type="checkbox" name="checkR">
+           	 Ознакомлен с контрактом
+
+         </label>
+         <label>
+           <br><br>
+           <input type="submit" name="Send" value="Отправить" id="sendButton">
+         </label>
+    </form>
+  </div>
+    <div id ="footeR" class = "tipicalFooter">
+      <footer><p>(c) Россихин Андрей</p></footer>
+    </div>
+</body>
 </html>
-
-
