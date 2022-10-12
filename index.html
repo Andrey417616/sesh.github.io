@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Task 3 </title>
+    <title> Task 5 </title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -219,6 +219,19 @@
            <input type="submit" name="Send" value="Отправить" id="sendButton">
          </label>
     </form>
+  </div>
+  <div class="container__calc p-2 mt-2 order-2 bg-light order-sm-4">
+    <article><h4> Калькулятор товара</h4></article>
+    <p>Введите цену товара:
+      <input type="text" name="number1" id="field1" >
+    </p>
+    <p>Введите количество товара:
+      <input type="text" name="number2" id="field2" >
+    </p>
+    <button id = "click" onclick = "task1()" >
+      Посчитать
+    </button>
+    <p id= "output">Итоговая цена: </p>
   </div>
     <div id ="footeR" class = "tipicalFooter">
       <footer><p>(c) Россихин Андрей</p></footer>

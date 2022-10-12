@@ -119,6 +119,34 @@ img {
 .content ol {
     padding: 30px;
 }
+.container__calc h4{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em;
+    font-size: 2em;
+
+}
+
+.container__calc p {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
+    font-size: 1em;
+    
+}
+.container__calc button {
+ 
+    width: 8em;
+    font-size: 1.2em;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+
+
+}
+
 @media screen and (min-width: 321px) {
     body {
         font-size: 20px;
