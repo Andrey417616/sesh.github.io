@@ -146,6 +146,19 @@ img {
 
 
 }
+.container__calc2 {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    font-size: 1.4em;
+}
+.container__calc2 .zag {
+    font-size: 2em;
+}
+.container__calc2 div {
+    margin-top: 20px;
+}
 
 @media screen and (min-width: 321px) {
     body {
@@ -155,12 +168,31 @@ img {
         flex-direction: column;
     }
 }
+
+@media screen and (min-width: 390px) {
+    body {
+        font-size: 21px;
+    }
+    .navigation ul {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 430px) {
+    body {
+        font-size: 22px;
+    }
+    .navigation ul {
+        flex-direction: column;
+    }
+}
+
 @media screen and (min-width: 600px) {
     .logoPNG {
         width: 200px;
     }
     body {
-        font-size: 26px;
+        font-size: 24px;
     }
     .navigation ul {
         flex-direction: column;
@@ -172,7 +204,7 @@ img {
 @media screen and (min-width: 769px) {
     .navigation ul {
         font-size: 0.8em;
-        flex-direction: column;
+        flex-direction: row;
     }
     .navigation ul li {
         margin-right: 30px;
@@ -184,7 +216,7 @@ img {
         width: 8em;
     }
     label{
-        font-size: 1.6;
+        font-size: 1.6em;
     }
 
     .formAd {
@@ -234,7 +266,8 @@ img {
         padding: 6px 10px;
     }
     input.formAd {
-        width: 8em;
+        width: 10em;
+        
     }
     label{
         font-size: 1.4em;
