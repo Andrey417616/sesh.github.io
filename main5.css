@@ -1,0 +1,11 @@
+.bg-blue {
+    background-color: rgb(168, 50, 168);
+}
+
+.border-common {
+    border: 1px solid rgb(226, 210, 210);
+}
+
+.border-round {
+    border-radius: 5px;
+}
