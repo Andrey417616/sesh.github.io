@@ -1,0 +1,12 @@
+.bg-blue {
+    background-color: rgb(199, 114, 216);
+}
+
+hr{
+    color: #e01111;
+    opacity: 100%;
+}
+
+.navlink{
+    width: fit-content;
+}
